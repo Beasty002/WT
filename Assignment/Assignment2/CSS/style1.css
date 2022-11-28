@@ -1,0 +1,116 @@
+body {}
+
+body::before {
+    content: "";
+    background-size: auto;
+    position: absolute;
+    background-image: url(https://img.freepik.com/premium-vector/bright-fruit-seamless-pattern-hand-drawn-style-vector-repeat-background-colorful-summer-fabric-cartoon-fruit-background-perfect-textile-manufacturing-wallpaper-posters-etc_501069-635.jpg?w=2000);
+    height: 1800px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+    mix-blend-mode: darken;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: hsl(20, 20, 20);
+    line-height: 100px;
+    opacity: 0.9;
+    -webkit-text-fill-color: rgb(8, 210, 255);
+    -webkit-text-stroke-width: 2px;
+}
+
+h2 {
+    color: rgb(rgb(21, 5, 5), rgb(79, rgb(8, 8, 21), 79), rgb(24, 24, 61));
+    text-decoration: underline;
+    font-weight: bolder;
+    text-align: center;
+    opacity: 0.9;
+    font-size: 30px;
+    stroke-width: 4px;
+}
+
+h3 {
+    color: rgb(43, 51, 51);
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+div p {
+    font-size: 25px;
+    font-stretch: wider;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+img:hover {
+    background-color: rgb(255, 241, 159);
+}
+
+img {
+    size: 100%;
+    border-radius: 50%;
+    opacity: 100;
+    height: 20;
+    background-color: hsla(9, 100%, 50%, 0);
+    background-blend-mode: darken;
+    opacity: 1;
+}
+
+.apple {
+    text-align: center;
+    background-color: #E97777;
+    height: 300px;
+    margin-right: 50%;
+    margin-left: 10px;
+    height: 25%;
+    width: 48%;
+    opacity: 0.81;
+    mix-blend-mode: normal;
+}
+
+.mango {
+    text-align: center;
+    background-color: #FFE15D;
+    height: 300px;
+    margin-right: 10px;
+    margin-left: 51%;
+    height: 25%;
+    width: 48%;
+    opacity: 0.81;
+}
+
+.orange {
+    text-align: center;
+    background-color: #F49D1A;
+    height: 300px;
+    margin-right: 50%;
+    margin-left: 10px;
+    height: 25%;
+    width: 48%;
+    opacity: 0.81;
+}
+
+.cherry {
+    text-align: center;
+    background-color: #E14D2A;
+    height: 300px;
+    margin-right: 10px;
+    margin-left: 51%;
+    height: 25%;
+    width: 48%;
+    opacity: 0.81;
+}
+
+.discount {
+    text-decoration: line-through;
+}
