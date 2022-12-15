@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>Nav</title>
+    <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        body {
+            background-color: #f3f4f6;
+            margin-top: 0;
+        }
+        
+        nav {
+            background-color: white;
+            height: 70px;
+            margin-top: 0;
+            box-shadow: 0 4px 2px -2px gray;
+        }
+        
+        a:hover {
+            border-bottom: 3px solid #5148e5;
+            color: #40444c;
+            padding-bottom: 26px;
+        }
+        
+        ul,
+        li {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .logopng {
+            position: absolute;
+            margin-top: 8px;
+            left: 50px;
+        }
+        
+        .name {
+            margin-left: 90px;
+            font-size: 22px;
+            font-weight: bold;
+            position: relative;
+            top: 8px;
+        }
+        
+        .nlogo {
+            display: inline-block;
+            left: 20px;
+        }
+        
+        .menu {
+            position: relative;
+            margin-left: -50px;
+            display: inline-block;
+            font-size: 16px;
+            top: 8px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #9095a0e1;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        
+        .menulist {
+            padding-left: 40px;
+        }
+        
+        .rightnav {
+            position: absolute;
+            margin: auto;
+            top: 0;
+            display: inline-block;
+            right: 20px;
+        }
+        
+        .icon {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .pp {
+            height: 40px;
+            border-radius: 50%;
+            position: relative;
+            top: 13px;
+            right: 24px;
+        }
+        
+        input {
+            height: 1.7em;
+            width: 18em;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 20px;
+            border-radius: 5px;
+            border: solid 1px rgba(71, 65, 65, 0.164);
+            position: relative;
+            top: -2px;
+            right: 94px;
+        }
+        
+        .search input[type=text] {
+            padding-left: 30px;
+            font-size: 15px;
+            font-weight: 600;
+            color: #9095a06b;
+        }
+        
+        .searchimg {
+            position: absolute;
+            width: 1.2em;
+            top: 22px;
+            opacity: 0.3;
+            right: 430px;
+            z-index: 1;
+        }
+        
+         ::placeholder {
+            color: #9095a09c;
+            padding: 8px;
+        }
+        
+        .bellpng {
+            position: absolute;
+            opacity: 0.5;
+            top: 24px;
+            right: 85px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="nlogo">
+            <span class="logon">
+                <img src="images/logo.png" alt="" class="logopng">
+            </span>
+            <span class="name">workflow</span>
+        </div>
+        <div class="menu">
+            <ul>
+                <li class="menulist"><a href="">Dashboard</a></li>
+                <li class="menulist"><a href="">Team</a></li>
+                <li class="menulist"><a href="">Projects</a></li>
+                <li class="menulist"><a href="">Calendar</a></li>
+            </ul>
+        </div>
+        <div class="rightnav">
+            <span class="search">
+            <img src="images/search.png" alt="search" class="searchimg">
+            <input type="text" placeholder="Search">
+            </span>
+            <div class="icon">
+                <span class="bell"><img src="images/bell.png" alt="bell" class="bellpng"></span>
+                <span class="usericon"><img src="images/user.png" alt="user" class="pp"></span>
+            </div>
+
+        </div>
+    </nav>
+
+</body>
+
+</html>
