@@ -5,6 +5,10 @@
    * text formatting tags
    * image, video and audio
    * iframe
+# Theory:
+* Semantics tags for the layout: These tags help to structure the content of a webpage and give meaning to the content. Examples include the <header>, <footer>, and <main> tags
+
+
 
 > Deadline: 23 December, 8 am
  ![](images\Screenshot.png) 
