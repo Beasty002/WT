@@ -10,6 +10,7 @@
 
 
 
-> Deadline: 23 December, 8 am
- ![](images\Screenshot.png) 
- ![](images\Screenshot1.jpg)
+> Deadline: 23 December, 8 am <br>
+![ok](images/Screenshot.png) 
+
+![ok](images/Screenshot1.jpg)
